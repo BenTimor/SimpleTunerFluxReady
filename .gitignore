@@ -1,5 +1,4 @@
 *.code-workspace
-multidatabackend*json
 # Python and virtual environment files
 output/
 temp/
@@ -48,7 +47,6 @@ Thumbs.db
 files.tbz
 */config/auth.json
 work
-multidatabackend.json
 multidatabackend_sd2x.json
 
 config/*.env
