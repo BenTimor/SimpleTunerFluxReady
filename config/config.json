@@ -36,5 +36,11 @@
     "--lr_scheduler": "polynomial",
     "--lr_warmup_steps": 100,
     "--validation_torch_compile": "false",
-    "--disable_benchmark": "false"
+    "--disable_benchmark": "false",
+    "--base_model_precision": "int8-quanto",
+    "--text_encoder_1_precision": "no_change",
+    "--text_encoder_2_precision": "no_change",
+    "--lora_rank": 16,
+    "--max_grad_norm": 1.0,
+    "--base_model_default_dtype": "bf16"  
 }
