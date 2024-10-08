@@ -14,7 +14,8 @@
         "vae_cache_clear_each_epoch": true,
         "probability": 1.0,
         "repeats": 5,
-        "text_embeds": "alt-embed-cache"
+        "text_embeds": "alt-embed-cache",
+        "instance_prompt": "A photo of BT person"
     },
     {
         "id": "alt-embed-cache",
